@@ -40,5 +40,21 @@ public class Main {
         queue.remove();
         System.out.println(queue);
         System.out.println(queue.peek());
+
+        /*
+        Deque:
+        A queue in which, you can insert and remove from both the sides
+         */
+
+        Deque <Integer> deque = new ArrayDeque<>();
+        deque.add(123);
+        deque.add(124);
+        deque.add(125);
+        deque.add(126);
+        deque.add(127);
+        deque.remove();
+        System.out.println(deque);
+
+
     }
 }
