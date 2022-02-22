@@ -46,6 +46,7 @@ public class Main {
         A queue in which, you can insert and remove from both the sides
          */
 
+        // Array deque is used to create objects for deque interface.
         Deque <Integer> deque = new ArrayDeque<>();
         deque.add(123);
         deque.add(124);
