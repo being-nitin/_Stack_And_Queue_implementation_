@@ -52,9 +52,10 @@ public class Main {
         deque.add(125);
         deque.add(126);
         deque.add(127);
+        deque.addFirst(345);
+        deque.addLast(678);
         deque.remove();
         System.out.println(deque);
-
 
     }
 }
